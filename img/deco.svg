@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 113.6 113.6" style="enable-background:new 0 0 113.6 113.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{display:none;}
+	.st2{display:inline;fill:url(#magnet-2_1_);}
+	.st3{stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<pattern  y="113.6" width="93" height="93" patternUnits="userSpaceOnUse" id="pattern" viewBox="0 -93 93 93" style="overflow:visible;">
+	<g>
+		<rect x="0" y="-93" class="st0" width="93" height="93"/>
+		
+			<image style="overflow:visible;enable-background:new    ;" width="93" height="93" xlink:href="DCEA139A.png"  transform="matrix(1 0 0 -1 0 0)">
+		</image>
+	</g>
+</pattern>
+<g transform="matrix(1, 0, 0, 1, 0, 0)" class="st1">
+	
+		<pattern  id="magnet-2_1_" xlink:href="#pattern" patternTransform="matrix(0.6518 -0.3763 -0.3763 -0.6518 -5911.0371 -17480.0156)">
+	</pattern>
+	<path id="magnet-2" class="st2" d="M-9.3,11.6l60.6-35l35,60.6l-60.6,35L-9.3,11.6z"/>
+</g>
+<path d="M56.8,18.5c-22,0-39.9,17.9-39.9,39.9s17.9,39.9,39.9,39.9c22,0,39.9-17.9,39.9-39.9S78.9,18.5,56.8,18.5z M56.8,88.9
+	c-16.8,0-30.5-13.6-30.5-30.5S40,27.9,56.8,27.9s30.5,13.6,30.5,30.5S73.6,88.9,56.8,88.9z"/>
+<rect x="52.7" y="10.5" class="st3" width="8.3" height="55.5"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-4 1169 113.622 113.622">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#pattern);
+      }
+
+      .cls-2 {
+        filter: url(#magnet);
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 93 93">
+      <image width="93" height="93" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAABdCAMAAADwr5rxAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAq1BMVEX///8rMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIrMDIAAAA9cfOoAAAAN3RSTlMAAAEmVIGiwtnsLHS17i+I3QlkyxB96ndT3xuxVu8ImzDlP/FC9uahZT4gRwI0/XwD9UY3GUAEdSx8zwAAAAFiS0dEOKAHpdYAAAAJcEhZcwAALiMAAC4jAXilP3YAAAAHdElNRQfiAgoOGjAeT0RQAAACEElEQVRo3u3XaXOCMBAG4CAeeCAgeIHifd/adv//P6tY6wXsBtDOOM37NdlnYAkhMPYQKSApOZ3J5pQ8eMkruWwmLaek4DA0vumFYkkFf9RSsZBUL2s6hEfXyvF1o2ICFbNixNKtao20vdSqVmTdqKtc9ukR1I1oeqPJbXtpNiLothPJ9uLYvHqrHRkHaLe4dLcTw/bScWndpldhWEyb0ru92DhAr4vr/UECHGDQx/ThKBEOMBoiV54UP/L90J4na8u5Od2Q1ZLkgV7Ts4NwN/5SvI/pBuhxXyJ/On689TQcoOVrepy9JSztx9ZH3xWxOPd446k4QOMWN6J9LOg0jRu9/mQcoH7FLf5vKG9U66JXn44DVC9d5ztaREvtt/OVF+AAlbPOt8GMJ9OZPJdn08mYa775g5d55jqL5eXIslxwvXvlk65xXMfq4Sy64rhf7aTr1LT1Zus76m43a6pM9/ACNWu3D/wN2O+owsJRL1L4IeQv40DxxaNeItqyl8KyJ5pTYixF7AIbKTwbvFRNMRmfYW4RfUusHJml8QkrCcsKL06zDDruSHjw1yrDsuj4gtAXaHWW5bDh8ZLQl+iek2MKNjyRqEywcoXlseEpqU+x8jxDGzcj9Rlaj+syqcsJ9Dmpf7xUt4QudKELXej/UX8M6RFhaIT+N/onFpfEvtD6t17vQhe60IUudKEL/U30b2HWi1rl5H3fAAAAAElFTkSuQmCC"/>
+    </pattern>
+    <filter id="magnet" x="-4" y="1169" width="113.622" height="113.622" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="magnet-2" data-name="magnet" class="cls-1" d="M0,0H70V70H0Z" transform="translate(5 1210) rotate(-30)"/>
+  </g>
+</svg>

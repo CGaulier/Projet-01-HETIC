@@ -1,0 +1,397 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/** INDEX
+*/
+
+nav{
+    padding:35px;
+    display:flex;
+    justify-content: space-between;
+    margin-left:15px;
+    margin-right: 15px;
+}
+
+#logo{
+    position: relative;
+    top:-270px;
+    left:-280px;
+    width:550px;
+}
+
+hr{
+    margin-top: -1345px;
+    border: 1px solid grey;
+    background-color: grey;
+    width:85%;
+    
+}
+
+#maPhoto{
+    margin-top:10px;
+    width: 70px;
+    height: auto;
+    border-radius :50%;
+    border:2px solid grey;
+
+}
+
+#wave{
+    width:800px;
+    position: relative;
+    top:-940px;
+    left:-300px;
+}
+
+.accueil{
+    background-color:white;
+    
+}
+
+.recherche {
+    padding: 120px;
+    padding-left:50px;
+    text-align: center;
+    margin-top: -70px;
+    margin-bottom: 70px;
+}
+
+#barre{
+    border-style: none;
+    border-bottom: 2px solid #289447;
+    
+    width :500px ;
+    height: 40px;
+}
+
+input[type="button"]:active{
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    background:#289447;
+    color: #fff;
+}
+
+
+
+/** TEST
+
+*/
+
+.checkbox-custom, .radio-custom {
+    opacity: 0;
+    position: absolute;   
+}
+
+.checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.checkbox-custom-label, .radio-custom-label {
+    position: relative;
+
+}
+
+.checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
+    content: '';
+    background: #fff;
+    border: 2px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    background:#289447;
+    color: #fff;
+}
+
+.radio-custom + .radio-custom-label:before {
+    border-radius: 50%;
+}
+
+.radio-custom:checked + .radio-custom-label:before {
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    color: #289447;
+}
+
+.checkbox-custom:focus + .checkbox-custom-label, .radio-custom:focus + .radio-custom-label {
+  outline: 1px solid #ddd; /* focus style */
+}
+
+label{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type="button"]{
+    font-size: 1.5em;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #289447;
+    width: 45px;
+    height:45px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content : space-around;
+}
+
+footer a{
+    color : black;
+    text-decoration: none;
+    font-size:1.5em;
+}
+
+/**
+Profil.html
+*/
+section{
+    max-width: 100%;
+}
+
+
+.myProfil{
+
+
+    display:flex;
+    justify-content: space-around;
+ 
+    padding-bottom :15px;
+    height: 500px;
+
+}
+
+#myBio img{
+    width: 170px;
+    height: auto;
+    border-radius :50%;
+
+}
+
+#myBio{
+
+    text-align: center;
+}
+
+.onglets div{
+    background-color: #ddd;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.myChoice{
+    background-color: cyan;
+    max-width: 100%;
+    
+}
+
+#fav{
+    position: absolute;
+    background-color: red;
+    z-index: 100;
+    margin-left:31.5%;
+    margin-top: 11.5%;
+    border: 1px solid black;
+    border-radius: 50%;
+    width:150px;
+    height: 150px;
+    text-align: center;
+}
+
+
+#competence article{
+    margin-left:10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#competence div:nth-child(1n+2){
+
+    height: 300px;
+    width:48%;
+}
+
+#hobby article{
+    margin-left:10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#hobby div:nth-child(1n+2){
+    height: 300px;
+    width:48%;
+}
+#projet article{
+    margin-left:10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#projet div:nth-child(1n+2){
+    height: 300px;
+    width:48%;
+}
+
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.resultatRecherche{
+    margin-bottom:55px;
+}
+
+.resultatRecherche h1{
+    text-align: center;
+}
+.resultat{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.resultat article{
+
+    background-color: cyan;
+    width :80%;
+    height:170px;
+}
+
+#imgResultat img{
+    width:200px;
+    border-radius: 50%;
+    margin-top:-15px;
+    margin-left:-100px;
+}
+
+.detailArticle{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.detailArticle article{
+    width:98%;
+    text-align: center;
+    border: 1px solid black;
+    margin:25px;
+}
+
+
+/**
+MODAL PROFIL PUBLIC
+*/
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+

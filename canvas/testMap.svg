@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 711.4"><defs>
+<style>.cls-1{fill:#fff;}.cls-2{font-size:12px;font-family:MyriadPro-Regular, Myriad Pro;}.cls-3{letter-spacing:-0.01em;}.cls-4{letter-spacing:-0.01em;}.cls-5{letter-spacing:0em;}</style>
+</defs><title>testMap</title><g id="Calque_1" data-name="Calque 1"><rect class="cls-1" x="1" y="1" width="1298" height="709"/>
+<path d="M1337,36V743H41V36H1337m2-2H39V745H1339V34Z" transform="translate(-39 -34)"/>
+</g>
+<g id="Calque_2" data-name="Calque 2">
+<rect class="cls-1" x="1" y="356" width="648" height="354.4"/>
+<path d="M687,391V743.4H41V391H687m2-2H39V745.4H689V389Z" transform="translate(-39 -34)"/>
+<rect class="cls-1" x="1" y="1" width="648" height="354.4"/>
+<path d="M687,36V388.4H41V36H687m2-2H39V390.4H689V34Z" transform="translate(-39 -34)"/><rect class="cls-1" x="651" y="1" width="648" height="354.4"/>
+<path d="M1337,36V388.4H691V36h646m2-2H689V390.4h650V34Z" transform="translate(-39 -34)"/>
+<rect class="cls-1" x="651" y="356" width="645" height="354.4"/>
+<path d="M1334,391V743.4H691V391h643m2-2H689V745.4h647V389Z" transform="translate(-39 -34)"/></g><g id="Calque_3" data-name="Calque 3"
+><circle class="cls-1" cx="650" cy="355" r="140"/>
+<path d="M689,250a139,139,0,1,1-98.29,40.71A138.12,138.12,0,0,1,689,250m0-2A141,141,0,1,0,830,389,141,141,0,0,0,689,248Z" transform="translate(-39 -34)"/>
+<text class="cls-2" transform="translate(298 178.2)"><tspan class="cls-3">L</tspan>
+<tspan x="5.5" y="0">o</tspan><tspan class="cls-4" x="12.08" y="0">r</tspan>
+<tspan class="cls-5" x="15.89" y="0">em ipsum</tspan>
+</text><text class="cls-2" transform="translate(942 178.2)">
+<tspan class="cls-3">L</tspan><tspan x="5.5" y="0">o</tspan>
+<tspan class="cls-4" x="12.08" y="0">r</tspan><tspan x="15.89" y="0">em ipsum</tspan></text>
+<text class="cls-2" transform="translate(298 529.2)"><tspan class="cls-3">L</tspan>
+<tspan x="5.5" y="0">o</tspan><tspan class="cls-4" x="12.08" y="0">r</tspan>
+<tspan class="cls-5" x="15.89" y="0">em ipsum</tspan></text>
+<text class="cls-2" transform="translate(973.5 533.2)"><tspan class="cls-3">L</tspan>
+<tspan x="5.5" y="0">o</tspan><tspan class="cls-4" x="12.08" y="0">r</tspan>
+<tspan x="15.89" y="0">em ipsum</tspan></text><text class="cls-2" transform="translate(613 355)">
+<tspan class="cls-3">L</tspan><tspan x="5.5" y="0">o</tspan>
+<tspan class="cls-4" x="12.08" y="0">r</tspan><tspan x="15.89" y="0">em ipsum</tspan></text></g></svg>

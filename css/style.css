@@ -1,0 +1,952 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/** INDEX
+*/
+
+nav{
+
+    padding:38px;
+    display:flex;
+    justify-content: space-between;
+    margin-left:15px;
+    margin-right: 15px;
+}
+
+nav a:nth-of-type(2){
+    color:black;
+    font-size: 3em;
+}
+#logo{
+    position: relative;
+    top:-40px;
+    left:-50px;
+    width:90px;
+}
+
+#deco{
+    position: relative;
+    top: -40px;
+    left: 30px;
+    width: 70px;
+}
+
+#trait{
+width:40%;
+height:4px;
+margin-top: 45px;
+border-top: 2px solid black;
+}
+
+#trait:nth-of-type(2){
+    margin-right: -89px;
+}
+
+#trait:first-of-type{
+    margin-left: -55px;
+}
+
+#serious{
+    width:200px;
+    position: relative;
+    top: 30px;
+    left:15px;
+}
+
+
+
+#maPhoto{
+    position: relative;
+    margin-top: 10px;
+    width: 70px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid grey;
+    left: 60px;
+
+}
+
+#wave{
+    width:40px;
+    position: relative;
+    top:-120px;
+    left: 80px;
+
+}
+
+.accueil{
+    background-color:white;
+    
+}
+
+.accueil h1{
+    font-size: 2em;
+}
+
+
+.recherche {
+    padding: 120px;
+    padding-left:50px;
+    text-align: center;
+    margin-top: -170px;
+    margin-bottom: 70px;
+}
+
+#barre{
+    border-style: none;
+    border-bottom: 2px solid #289447;
+    position: relative;
+    top:-35px;
+    left:3px;
+ 
+    width :500px ;
+    height: 40px;
+}
+
+#searchbar input[type="submit"]:active{
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    background:white;
+    color: #fff;
+}
+
+
+/** TEST
+
+*/
+
+.checkbox-custom, .radio-custom {
+    opacity: 0;
+    position: absolute;   
+}
+
+.checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.checkbox-custom, .checkbox-custom-label{
+    padding-bottom:65px;
+}
+
+.checkbox-custom-label, .radio-custom-label {
+    position: relative;
+
+}
+
+.checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
+    content: '';
+    background: #fff;
+    border: 2px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    background:#289447;
+    color: #fff;
+
+    
+}
+
+.radio-custom + .radio-custom-label:before {
+    border-radius: 50%;
+    display: block;
+    margin-left:25px;
+
+    
+}
+
+#searchbar div:last-of-type{
+    margin-bottom:25px;
+}
+.radio-custom + .radio-custom-label{
+    margin-left:25px;
+}
+
+.radio-custom:checked + .radio-custom-label:before {
+
+    border:2px #289447 solid;
+
+}
+
+.checkbox-custom:focus + .checkbox-custom-label, .radio-custom:focus + .radio-custom-label {
+  outline: 1px solid #ddd; /* focus style */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#searchbar h2{
+    padding-top:35px;
+}
+
+
+#searchbar input[type="submit"]{
+    font-size: 1.5em;
+    background-color: #289447;
+    border-radius: 50%;
+    border: 2px solid #289447;
+    width: 45px;
+    height:45px;
+}
+
+
+
+/**
+FOOTER
+*/
+
+footer {
+    padding :15px;
+    border-top: 2px black solid;
+    width: 65%;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content : space-around;
+    
+}
+
+footer a{
+
+    font-size:1.1em;
+    color : black;
+    text-decoration: none;
+}
+
+/**
+Profil.html
+*/
+section{
+    max-width: 95%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+
+.myProfil{
+    max-width: 100%;
+    margin-left:335px;
+    margin-right: auto;
+
+    display:flex;
+    justify-content: space-around;
+ 
+    padding-bottom :80px;
+    height: 500px;
+
+}
+
+myProfil article{
+    padding:10px;
+    margin:15px;
+}
+
+span :first-child{
+
+    color:#289447;
+}
+
+
+.myProfil article:nth-of-type(2){
+   width:35%;
+    padding-left: 55px;
+    padding-right: 55px;
+    border-left:1px grey solid;
+    border-right: 1px grey solid;
+}
+
+.myProfil h3{
+    font-size: 1.5em;
+    color: black;
+}
+#myBio img{
+    width: 170px;
+    height: auto;
+    border-radius :50%;
+    border:2px black solid;
+
+}
+
+#myBio h1{
+    font-size: 1.5em;
+}
+
+#myBio{
+    margin-left: -250px;
+    width: 15%;
+}
+
+#myBio p:first-of-type{
+    font-size: 1.5em;
+    color: black;
+}
+
+#myBio p:nth-child(3){
+    color: grey;
+    font-size: 1.2em;
+}
+
+#myBio p:last-of-type{
+    font-style: italic;
+}
+
+.myProfil article:nth-of-type(3){
+    margin-right:-35px;
+    width: 30%;
+    margin-left:-80px;
+}
+
+
+#magnetProfil{
+    margin-left:-80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+#magnetProfil div{
+    margin-top:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:50%;
+
+}
+
+#magnetProfil div:nth-of-type(5){
+    text-align: center;
+    width: 100%;
+
+}
+
+.onglets div{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.myChoice{
+    background-color: white;
+    max-width: 100%;
+    text-align: center;
+    
+}
+
+
+
+#fav{
+    
+    position: absolute;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid #289447;
+    border-radius: 50%;
+   /** margin-top: 178px 318px auto;*/
+   margin-top: 178px;
+   margin-left:0;
+    max-width: 150px;
+    max-height: 130px;
+    text-align: center;
+    padding: 10px;
+}
+
+#fav input[type="submit"]{
+
+    border-style: none;
+    border-bottom : 2px solid grey;
+    background-color: white;
+}
+
+#fav input[type="submit"]:hover{
+    
+        border-style: none;
+        border-bottom : 2px solid #289447;
+        background-color: white;
+    }
+
+#competence article{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.vitrine input[type="submit"]{
+    border-style: none;
+    border-bottom : 2px solid grey;
+    background-color: white;
+}
+
+.vitrine input[type="submit"]:hover{
+    border-style: none;
+    border-bottom : 2px solid #289447;
+    background-color: white;
+}
+
+#competence .vitrine{
+    padding-top:50px;
+    height: 200px;
+    width:35%;
+}
+
+
+.vitrine:first-of-type{
+    border-right: 1px grey solid;
+    border-bottom: 1px grey solid;
+}
+
+#competence .vitrine:last-of-type{
+    margin-top:-0.5px;
+    margin-left:0.5px;
+    border-left: 1px grey solid;
+    border-top: 1px grey solid;
+}
+#hobby article{
+    padding:10px;
+    width:75%;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#hobby input[type="submit"]{
+    border-style: none;
+    border-bottom : 2px solid grey;
+    background-color: white;
+
+}
+
+#hobby input[type="submit"]:hover{
+    border-style: none;
+    border-bottom : 2px solid #289447;
+    background-color: white;
+}
+
+#hobby div{
+    padding-top: 50px;
+    height: 200px;
+    width:35%;
+    padding-bottom:25px;
+
+}
+
+#hobby textarea{
+    width: 95%;
+}
+
+#hobby div:first-of-type{
+    border-right: 1px grey solid;
+    border-bottom: 1px grey solid;
+}
+
+#hobby div:last-of-type{
+    margin-top:-0.5px;
+    margin-left:0.5px;
+    border-left: 1px grey solid;
+    border-top: 1px grey solid;
+}
+#projet article{
+    height:400px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#projet div{
+    width :45%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:25px;
+    padding: 15px;
+    border-top:1px grey solid;
+
+}
+
+#projet input[type="submit"]{
+    border-style: none;
+    border-bottom : 2px solid grey;
+    background-color: white;
+}
+
+#projet input[type="submit"]:hover{
+    border-style: none;
+    border-bottom : 2px solid #289447;
+    background-color: white;
+}
+
+#projet select{
+    border:1px solid #289447;
+}
+
+.tab {
+    overflow: hidden;
+    border-top: 2px solid #289447;
+
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 1.4em;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    color:#133f1f
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    color:#289447;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+#myProfil input[type="submit"]{
+    border-style: none;
+    border-bottom : 2px solid grey;
+    background-color: white;
+}
+
+#myProfil article:nth-last-of-type(3) input[type="submit"]:hover{
+    border-style: none;
+    border-bottom : 2px solid #289447;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#noResults{
+    text-align: center;
+}
+.resultatRecherche{
+    margin-bottom:55px;
+
+}
+
+
+.resultatRecherche h1{
+    text-align: center;
+}
+.resultat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.resultatRecherche{
+    margin-top:-80px;
+}
+
+.resultat article{
+    margin:35px auto 35px auto;
+    border-top:2px #289447 solid;
+    border-left:2px #289447 solid;
+    width :65%;
+    height:240px;
+}
+
+.resultat form{
+    width: 98px;
+
+    font-size: 0.7em;
+    position: relative;
+    top: -680px;
+    left: 70px;
+    display: flex;
+    color:white;
+    flex-direction: column;
+}
+
+#containerResultat{
+    text-align: center;
+    position: relative;
+    left: 350px;
+    top: -560px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+}
+
+.resultat input[type="submit"]{
+    font-size: 1.3em;
+    color:white;
+    border-style: none;
+    border-bottom : 2px solid #888;
+    background-color: #A0AFA1;
+
+    
+}
+
+.resultat input[type="submit"]:hover{
+    border-style: none;
+    border-bottom : 2px solid #289447;
+
+}
+
+
+
+#containerResultat div{
+
+    position: relative;
+    top: -170px;
+    margin:15px;
+    left: -100px;
+}
+
+#containerResultat img{
+
+    width:70px;
+}
+
+
+#containerResultat h2{
+    font-size: 1em;
+
+    position: relative;
+    left:-185px;
+    top:-200px;
+}
+
+#imgResultat img{
+    width:100px;
+    border-radius: 50%;
+    margin-top:-15px;
+    margin-left:-45px;
+}
+
+#fanion{
+    height: 590px;
+    width: auto;
+    position: relative;
+    top: -233px;
+    left: -15px;
+}
+
+.detailArticle{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.detailArticle article{
+    width:98%;
+    text-align: center;
+
+    margin:25px;
+}
+
+
+/**
+MODAL PROFIL PUBLIC
+*/
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 15px;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+.modal-content input[type="submit"]{
+    border-style: none;
+    border-bottom : 2px solid grey;
+    background-color: white;
+}
+
+.modal-content input[type="submit"]:hover{
+    border-style: none;
+    border-bottom : 2px solid #289447;
+    background-color: white;
+}
+
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close1 ,.close2 ,.close3 {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close1,.close2 ,.close3:hover,
+.close1,.close2 ,.close3:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+
+
+/**
+
+CODE NOEMIE
+
+
+*/
+
+#bloc_1 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    justify-content: flex-start;
+    float: left;
+    margin-left: 250px;
+    margin-right: 150px;
+    margin-top: 100px;
+    text-align: center;
+ }
+ 
+ #block_1 a {
+    text-decoration: none;
+ }
+ #bloc_2 {
+    padding-right: 80px;
+    margin-bottom: 150px;
+ }
+
+ #mentions {
+    margin: 50px;
+    margin-bottom: 100px;
+ }
+
+ /** FIN CODE NOEMIE
+ */
+
+
+
+#myBio label{
+display:flex;
+flex-direction: column;
+}
+
+#myBio textarea{
+    margin-top:-30px;
+    width:155px;
+    height:70px;
+    resize: none;
+}
+
+textarea{
+    resize:none;
+}
+
+.myProfil input[type="submit"]{
+    border-style: none;
+    border-bottom : 2px solid grey;
+    background-color: white;
+
+}
+
+
+.myProfil input[type="submit"]:hover{
+    border-style: none;
+    border-bottom : 2px solid #289447 ;
+    background-color: white;
+
+}
+
+.formComp form{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left:15px;
+    align-items: center;
+    width: 75%;
+    margin:25px;
+}
+
+
+.formComp{
+    width: 25%;
+    margin: 15px;
+
+    padding-left: 15px;
+}
+
+.formComp{
+    border-bottom: 2px black solid;
+}
+
+.formComp input[type="checkbox"]{
+    margin-top:15px;
+}
+
+.formComp input[type="submit"]{
+    margin-top:25px;
+    background-color: white;
+    border-style: none;
+    border: 2px grey solid;
+}
+
+.formComp input[type="submit"]:hover{
+    border: 2px #289447 solid; 
+}
+#btnAddTag{
+    height: 35px;
+    margin-top:152px;
+    background-color: white;
+    border-style: none;
+    border: 2px grey solid;
+    border-radius:50%;
+    color: #289447;
+    font-size: 1.5em;
+
+
+}
+
+#btnAddTag:hover{
+    border: 2px #289447 solid; 
+}
+
+#btnAddHob{
+    background-color: white;
+    border-style: none;
+    border: 2px grey solid;
+    font-size:1.5em;
+}
+
+#btnAddHob:hover{
+    border: 2px #289447 solid; 
+}
+
+#btnAddProject{
+    background-color: white;
+    border-style: none;
+    border: 2px grey solid;
+    font-size:1.5em; 
+    margin-bottom:15px;
+}
+
+#btnAddProject:hover{
+    border: 2px #289447 solid; 
+}
+
+#projet{
+    margin-top:25px;
+}
+
+#projet input{
+    text-align: center;
+    margin-right:10px;
+}
+
